@@ -20,6 +20,8 @@ Jest to program skupiający się na wczytywaniu i drukowaniu danych. Wykonuje ta
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/podstawy-wczytywanie-wypisywanie.cpp)
 
+[Wróć do spisu treści](#spis-treści)
+
 ## check-and-print oraz check-and-print-v2
 Wypisywanie obliczeń w zależności od wartości liczb
 
@@ -38,6 +40,8 @@ Program check-and-print-v2 to bardziej zoptymalizowana wersja z flagą logiczną
 [Zobacz kod programu check-and-print](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print.cpp)
 
 [Zobacz kod programu check-and-print-v2](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print-v2.cpp)
+
+[Wróć do spisu treści](#spis-treści)
 
 ## check-and-print-with-flag
 
@@ -62,6 +66,8 @@ Założeniem tego ćwiczenia było przećwiczenie stosowania **flagi logicznej (
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print-with-flag.cpp)
 
+[Wróć do spisu treści](#spis-treści)
+
 ## cmath-sqrt
 
 Obliczanie wartości funkcji f(x) = √x
@@ -78,6 +84,8 @@ Program został napisany w celu przećwiczenia:
 <img src="../images/cmath.png" width="300" />
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/cmath-sqrt.cpp)
+
+[Wróć do spisu treści](#spis-treści)
 
 ## switch-case
 
@@ -98,6 +106,8 @@ co ułatwia czytelność i organizację kodu przy wielu opcjach do obsłużenia.
 <img src="../images/switch-case.png" width="300" />
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/switch-case.cpp)
+
+[Wróć do spisu treści](#spis-treści)
 
 ## square-or-rectangle
 
@@ -120,6 +130,7 @@ Celem programu jest przećwiczenie użycia funkcji w celu **modularyzacji** kodu
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/funkcje/square-or-rectangle.cpp)
 
+[Wróć do spisu treści](#spis-treści)
 
 ## drawing-patterns
 
@@ -141,3 +152,5 @@ Program ćwiczy użycie funkcji, pętli oraz obsługi błędów przy wprowadzani
 <img src="../images/drawing-patterns1.png" width="300" /><img src="../images/drawing-patterns2.png" width="300" />
 
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/funkcje/drawing-patterns.cpp)
+
+[Wróć do spisu treści](#spis-treści)
