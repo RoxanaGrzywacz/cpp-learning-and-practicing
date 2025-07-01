@@ -1,3 +1,12 @@
+# Spis treści:
+1. [podstawy-wczytywanie-wypisywanie](#podstawy-wczytywanie-wypisywanie)
+2. [check-and-print oraz check-and-print-v2](#check-and-print-oraz-check-and-print-v2)
+3. [check-and-print-with-flag](#check-and-print-with-flag)
+4. [cmath-sqrt](#cmath-sqrt)
+5. [switch-case](#switch-case)
+6. [square-or-rectangle](#square-or-rectangle)
+7. [drawing-patterns](#drawing-patterns)
+
 ## podstawy-wczytywanie-wypisywanie
 
 Jest to program skupiający się na wczytywaniu i drukowaniu danych. Wykonuje takie działania jak: 
@@ -8,6 +17,8 @@ Jest to program skupiający się na wczytywaniu i drukowaniu danych. Wykonuje ta
 - Operacje na liczbach zmiennoprzecinkowych.
 
 <img src="../images/podstawy1.png" width="300" />
+
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/podstawy-wczytywanie-wypisywanie.cpp)
 
 ## check-and-print oraz check-and-print-v2
 Wypisywanie obliczeń w zależności od wartości liczb
@@ -23,6 +34,10 @@ Następnie:
 Program check-and-print-v2 to bardziej zoptymalizowana wersja z flagą logiczną.
 
 <img src="../images/check-and-print.png" width="300" />
+
+[Zobacz kod programu check-and-print](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print.cpp)
+
+[Zobacz kod programu check-and-print-v2](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print-v2.cpp)
 
 ## check-and-print-with-flag
 
@@ -45,6 +60,8 @@ Założeniem tego ćwiczenia było przećwiczenie stosowania **flagi logicznej (
 
 <img src="../images/flag.png" width="300" />
 
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/check-and-print-with-flag.cpp)
+
 ## cmath-sqrt
 
 Obliczanie wartości funkcji f(x) = √x
@@ -59,6 +76,8 @@ Program został napisany w celu przećwiczenia:
 - kontroli poprawności danych wejściowych.
 
 <img src="../images/cmath.png" width="300" />
+
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/cmath-sqrt.cpp)
 
 ## switch-case
 
@@ -77,3 +96,48 @@ Program został napisany w celu przećwiczenia stosowania instrukcji
 co ułatwia czytelność i organizację kodu przy wielu opcjach do obsłużenia.
 
 <img src="../images/switch-case.png" width="300" />
+
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/switch-case.cpp)
+
+## square-or-rectangle
+
+Obliczanie pola i obwodu prostokąta lub kwadratu
+
+Program prosi użytkownika o podanie dwóch liczb reprezentujących boki prostokąta (a i b),
+a następnie:
+- Sprawdza, czy boki są dodatnie (niezerowe), w przeciwnym razie wyświetla komunikat o błędzie.
+- Oblicza pole i obwód figury na podstawie podanych boków.
+- Jeśli oba boki są równe, program zakłada, że figura to kwadrat, w przeciwnym razie traktuje ją jako prostokąt.
+- Wyświetla odpowiednie informacje o polu i obwodzie dla kwadratu lub prostokąta.
+
+Program wykorzystuje:
+- **Funkcje:** `isSquare()` do sprawdzenia, czy figura to kwadrat, `calculateArea()` do obliczenia pola oraz `calculatePerimeter()` do obliczenia obwodu.
+- **Obsługę błędów** przy niepoprawnych danych wejściowych (boki ujemne lub zerowe).
+
+Celem programu jest przećwiczenie użycia funkcji w celu **modularyzacji** kodu oraz **sprawdzania warunków** przy wprowadzaniu danych.
+
+<img src="../images/square-or-rectangle.png" width="300" />
+
+[Zobacz kod programu]
+
+
+## drawing-patterns
+
+Program prosi użytkownika o podanie dwóch wartości:
+1. Liczby `a` – określającej liczbę znaków w szlaczku (liczba dodatnia różna od 0).
+2. Znaku `b` – z którego będzie zbudowany szlaczek.
+
+Program działa w następujący sposób:
+- Sprawdza, czy podana liczba `a` jest dodatnia i różna od 0. W przypadku niepoprawnej liczby (np. 0 lub liczba ujemna), wyświetla komunikat o błędzie.
+- Następnie wywołuje funkcję `patterns`, która za pomocą pętli `for` rysuje szlaczek, wypisując znak `b` dokładnie `a` razy w jednej linii.
+- Na końcu dodawana jest nowa linia.
+
+Program wykorzystuje:
+- **Funkcję `patterns()`**, która generuje szlaczek, powtarzając znak `b` określoną liczbę razy.
+- **Sprawdzanie warunków wejściowych**, aby upewnić się, że liczba `a` jest dodatnia i większa od 0.
+  
+Program ćwiczy użycie funkcji, pętli oraz obsługi błędów przy wprowadzaniu danych.
+
+<img src="../images/drawing-patterns1.png" width="300" /><img src="../images/drawing-patterns2.png" width="300" />
+
+[Zobacz kod programu]
