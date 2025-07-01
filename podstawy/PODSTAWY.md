@@ -118,7 +118,7 @@ Celem programu jest przećwiczenie użycia funkcji w celu **modularyzacji** kodu
 
 <img src="../images/square-or-rectangle.png" width="300" />
 
-[Zobacz kod programu]
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/funkcje/square-or-rectangle.cpp)
 
 
 ## drawing-patterns
@@ -140,4 +140,4 @@ Program ćwiczy użycie funkcji, pętli oraz obsługi błędów przy wprowadzani
 
 <img src="../images/drawing-patterns1.png" width="300" /><img src="../images/drawing-patterns2.png" width="300" />
 
-[Zobacz kod programu]
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/funkcje/drawing-patterns.cpp)
