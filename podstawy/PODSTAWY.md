@@ -6,6 +6,7 @@
 5. [switch-case](#switch-case)
 6. [square-or-rectangle](#square-or-rectangle)
 7. [drawing-patterns](#drawing-patterns)
+8. [for-loop](#for-loop)
 
 ## podstawy-wczytywanie-wypisywanie
 
@@ -154,3 +155,28 @@ Program ćwiczy użycie funkcji, pętli oraz obsługi błędów przy wprowadzani
 [Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/funkcje/drawing-patterns.cpp)
 
 [Wróć do spisu treści](#spis-treści)
+
+## for-loop
+
+Menu z wykonanymi przeze mnie programami w ramach ćwiczeń
+
+Program umożliwia wybór jednej z 11 opcji w menu, w których użytkownik może przećwiczyć różne operacje za pomocą pętli `for`. Program oferuje m.in.:
+- Wypisywanie gwiazdek
+- Dodawanie liczb
+- Wypisywanie liczb spełniających określone warunki
+
+Program działa w następujący sposób:
+- Użytkownik wybiera zadanie z menu.
+- Program realizuje wybrane zadanie przy użyciu pętli `for` oraz prostych warunków.
+- Każde zadanie realizuje określoną funkcjonalność, np. obliczanie sumy liczb, wypisywanie liczb w określonym porządku czy filtrowanie liczb według podzielności.
+
+Program jest wynikiem ćwiczeń pętli for, warunków oraz struktury `switch-case` w jednym pliku.
+Zastosowanie switch-case umożliwia stworzenie menu, które pozwala na łatwe uruchamianie różnych funkcji, co pozwala na skupienie się na logice zadań w jednym pliku, zamiast rozbijać program na wiele mniejszych plików.
+
+<img src="../images/for-loop-menu.png" width="300" /><img src="../images/for-loop-ex.png" width="300" />
+
+[Zobacz kod programu]
+
+[Wróć do spisu treści](#spis-treści)
+
+
