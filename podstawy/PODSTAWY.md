@@ -175,7 +175,7 @@ Zastosowanie switch-case umożliwia stworzenie menu, które pozwala na łatwe ur
 
 <img src="../images/for-loop-menu.png" width="300" /><img src="../images/for-loop-ex.png" width="300" />
 
-[Zobacz kod programu]
+[Zobacz kod programu](https://github.com/RoxanaGrzywacz/cpp-learning-and-practicing/blob/main/podstawy/p%C4%99tle/for-loop.cpp)
 
 [Wróć do spisu treści](#spis-treści)
 
